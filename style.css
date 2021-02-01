@@ -1,0 +1,74 @@
+html {
+    font-family: 'Kaushan Script', cursive;
+}
+
+#cupcake{
+display: flex;
+
+
+}
+#header{
+  
+opacity: 0.5;
+ 
+}
+
+ul{
+    display: flex;
+    
+    margin-left: 500px;
+    font-size: 20px;
+    color:pink;
+    
+}
+#phone{
+    display: flex;
+    
+    height: 25px;
+    width: 25px;
+    margin-top: 21px;
+    margin-left: 250px;
+   
+}
+#number{
+    color: black;
+    display: flex;
+    margin-left: 80px;
+    margin-top: 21px;
+}
+
+#checkout{
+    
+    display: flex;
+    height: 25px;
+    width: 25px;
+    margin-top: 21px;
+    margin-left: 250px;
+    border: 0.5px;
+}
+#checkout2{
+    color: black;
+    margin-left: 80px;
+    margin-top: 21px;
+    
+}
+
+#center{
+    position: absolute;
+    top: 51%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    font-size: 45px;
+}
+#grammy{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: pink;
+}
+#header img{
+    width: 100%;
+    
+}
