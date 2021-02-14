@@ -1,132 +1,230 @@
-html {
-    height: 232.5vh;
+body {
+    margin: 0;
     font-family: 'Kaushan Script', cursive;
 }
-
-#cupcake{
-display: flex;
-
-
+button {
+    cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
 }
-#header{
-  
-opacity: 0.5;
- 
-}
-
-ul{
+.container {
     display: flex;
-    
-    margin-left: 500px;
-    font-size: 20px;
-    color:#ff5b79d8;
-    
+    flex-direction: column;
 }
-#phone{
+header {
     display: flex;
-    
-    height: 25px;
-    width: 25px;
-    margin-top: 21px;
-    margin-left: 400px;
-   
-}
-#number{
-    color: black;
-    display: flex;
-    margin-left: 80px;
-    margin-top: 21px;
-}
-
-#checkout{
-    
-    display: flex;
-    height: 25px;
-    width: 25px;
-    margin-top: 21px;
-    margin-left: 50px;
-    border: 0.5px;
-}
-#checkout2{
-    color: black;
-    margin-left: 80px;
-    margin-top: 21px;
-    
-}
-
-#center{
     position: absolute;
-    top: 51%;
-    left: 41%;
-    transform: translate(-50%, -50%);
-    font-size: 45px;
-    color: white;
-}
-#grammy{
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: #ff3d61d8;
-}
-#header img{
     width: 100%;
+    background-color:white;
+    padding-bottom: 10px;
+}
+header .asd{
+    display: flex;
+    margin: auto;
+    flex: 5;
+    margin: 0 10px;
+    justify-content: space-between;
     
 }
-#explore{
-   
-    position: absolute;
-    top: 58%;
-    left: 48.5%;
-    transform: translate(-50%, -50%);
-    font-size: 23px;
-    color: black;
-    border: solid 2px black ;
+header .asd ul {
+    display: flex;
+    list-style: none;
+    margin-right: 35%;
 }
 
 
-.layer {
-    background-color: rgba(248, 247, 216, 0.7);
+header .second {
+    flex: 2;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10px;
+    margin: auto 0;
+
+}
+
+
+header .asd ul li {
+    margin: 0 10px;
+    color: rgb(235, 115, 135);
+    font-size: 22px;
+}
+header .second button {
+    background-color: transparent;
+    border-radius: 5px;
+    margin: 5px;
+    width: 160px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Kaushan Script', cursive;
+}
+.cupcakes_photo {
+    width: 100%;
+    padding-top: 63.64%;
+    background: url('header-background.jpeg');
+    background-size: contain;
+    position: relative;
+    top: -10%;
+    z-index: -1;
+    
+}
+.cupcakes_photo .color {
     position: absolute;
-    top: 0;
-    left: 0;
+    background-color: rgba(216, 185, 98, 0.466);
     width: 100%;
     height: 100%;
+    left: 0;
+    top: 0;
+    
+
 }
-#dwa{
+.color .gora {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.color .gora h1{
+    text-align: center;
+    font-size: 44px;
+    color:white;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.color .gora h1 em{
+   font-size: 54px;
+   font-weight: 800;
+
+   color: rgb(247, 119, 140);
+   
+}
+
+.color .gora button {
+    margin: 0 auto;
+
+    background-color: transparent;
+    font-size: 22px;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+}
+.lower_content {
     display: flex;
     flex-direction: row;
     
-}
-
-#pierwsze{
-    margin-left: 350px;
-    margin-top: 150px;
-    font-size: 40px;
-
-}
-
-#drugie{
-
-    font-size: 60px;
-    color:#ff5b79d8 ;
-    margin-top: 128px;
-}
-#trzecie{
-    margin-top: 210px;
-    margin-left: -165px;
-}
-
-#dwa img{
-    margin-left: 300px;
-    margin-top: 150px;
+    padding-bottom: 100px;
+   
     
-    outline: 6px solid yellow;
-    outline-offset: 15px;
-    background-color: white;
-    color:white;
-    top: -10px;
-    left: -10px;
-    z-index: 10;
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 70%;
+
+}
+.content {
+    flex: 1;
+    padding-top:5px;
+    
+    color:gray;
+    
+}
+.photo{
+    flex: 1;
+}
+.border{
+    
+    width: 100%;
+    background: url('footer-right-column.jpeg');
+    background-size: contain;
+    padding-top: 75%;
+    position: relative;
+
+}
+.border::before{
+    position: absolute;
+    top: -7%;
+    left: -7%;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #f5e23d;
+    content: '';
+    z-index: -1;
+}
+.lower_content .content h1{
+    font-weight: 400;
+    color: #000;
+}
+.lower_content .content h1 b{
+    font-size: 56px;
+    color: rgb(247, 119, 140);
+}
+
+.lower_content button {
+    margin: 0 auto;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(216, 212, 212);
+    margin: 0 auto;
+    text-align: center;
+
+}
+.store{
+    display: flex;
+    justify-content: center;
+}
+.footer .store h1{
+    font-weight: 400;
+    color: #000;
+}
+.footer .store h1 b{
+    font-size: 56px;
+    color: rgb(247, 119, 140);
+}
+.footer .btns button{
+    margin:0 35px 0 0;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+    
+}
+
+.inpt{
+
+display: flex;
+justify-content: center;
+padding-top: 20px;
+width: 100%;
+}
+.footer .inpt button{
+    
+    background-color:rgb(247, 119, 140);
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px rgb(247, 119, 140) solid;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.footer .inpt input{
+    width:25%;
+    border: grey;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    font-family: 'Kaushan Script', cursive;
+    border-bottom-left-radius: 0;
 }
