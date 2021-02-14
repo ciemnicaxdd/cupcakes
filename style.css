@@ -1,11 +1,10 @@
-* {
-    font-family: 'Kaushan Script', cursive;
-}
 body {
     margin: 0;
+    font-family: 'Kaushan Script', cursive;
 }
 button {
     cursor: pointer;
+    font-family: 'Kaushan Script', cursive;
 }
 .container {
     display: flex;
@@ -15,10 +14,10 @@ header {
     display: flex;
     position: absolute;
     width: 100%;
-    background-color: #fff;
+    background-color:white;
     padding-bottom: 10px;
 }
-header .left{
+header .asd{
     display: flex;
     margin: auto;
     flex: 5;
@@ -26,7 +25,14 @@ header .left{
     justify-content: space-between;
     
 }
-header .right {
+header .asd ul {
+    display: flex;
+    list-style: none;
+    margin-right: 35%;
+}
+
+
+header .second {
     flex: 2;
     display: flex;
     justify-content: space-around;
@@ -35,25 +41,22 @@ header .right {
 
 }
 
-header .left ul {
-    display: flex;
-    list-style: none;
-    margin-right: 35%;
-}
-header .left ul li {
+
+header .asd ul li {
     margin: 0 10px;
-    color: rgb(245, 137, 155);
+    color: rgb(235, 115, 135);
     font-size: 22px;
 }
-header .right button {
+header .second button {
     background-color: transparent;
     border-radius: 5px;
     margin: 5px;
     width: 160px;
     justify-content: space-between;
     font-size: 16px;
+    font-family: 'Kaushan Script', cursive;
 }
-.main_photo {
+.cupcakes_photo {
     width: 100%;
     padding-top: 63.64%;
     background: url('header-background.jpeg');
@@ -63,16 +66,17 @@ header .right button {
     z-index: -1;
     
 }
-.main_photo .color {
+.cupcakes_photo .color {
     position: absolute;
-    background-color: rgba(219, 190, 109, 0.466);
+    background-color: rgba(216, 185, 98, 0.466);
     width: 100%;
     height: 100%;
-    top: 0;
     left: 0;
+    top: 0;
+    
 
 }
-.color .header {
+.color .gora {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -81,25 +85,146 @@ header .right button {
     transform: translate(-50%, -50%);
 
 }
-.color .header h1{
+.color .gora h1{
     text-align: center;
     font-size: 44px;
-    color: white;
+    color:white;
     font-weight: 400;
     margin-bottom: 0;
 }
-.color .header h1 em{
-   font-size: 56px;
+.color .gora h1 em{
+   font-size: 54px;
    font-weight: 800;
+
    color: rgb(247, 119, 140);
    
 }
 
-.color .header button {
+.color .gora button {
     margin: 0 auto;
+
     background-color: transparent;
     font-size: 22px;
+
     padding: 5px 10px;
     border-radius: 5px;
     border: 3px #000 solid;
+}
+.lower_content {
+    display: flex;
+    flex-direction: row;
+    
+    padding-bottom: 100px;
+   
+    
+    padding-top: 150px;
+    margin: 0 auto;
+    width: 70%;
+
+}
+.content {
+    flex: 1;
+    padding-top:5px;
+    
+    color:gray;
+    
+}
+.photo{
+    flex: 1;
+}
+.border{
+    
+    width: 100%;
+    background: url('footer-right-column.jpeg');
+    background-size: contain;
+    padding-top: 75%;
+    position: relative;
+
+}
+.border::before{
+    position: absolute;
+    top: -7%;
+    left: -7%;
+    width: 100%;
+    height: 100%;
+    border: 6px solid #f5e23d;
+    content: '';
+    z-index: -1;
+}
+.lower_content .content h1{
+    font-weight: 400;
+    color: #000;
+}
+.lower_content .content h1 b{
+    font-size: 56px;
+    color: rgb(247, 119, 140);
+}
+
+.lower_content button {
+    margin: 0 auto;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px #000 solid;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding-top: 70px;
+    background-color: rgb(216, 212, 212);
+    margin: 0 auto;
+    text-align: center;
+
+}
+.store{
+    display: flex;
+    justify-content: center;
+}
+.footer .store h1{
+    font-weight: 400;
+    color: #000;
+}
+.footer .store h1 b{
+    font-size: 56px;
+    color: rgb(247, 119, 140);
+}
+.footer .btns button{
+    margin:0 35px 0 0;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px #000 solid;
+    
+}
+
+.inpt{
+
+display: flex;
+justify-content: center;
+padding-top: 20px;
+width: 100%;
+}
+.footer .inpt button{
+    
+    background-color:rgb(247, 119, 140);
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 2px rgb(247, 119, 140) solid;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.footer .inpt input{
+    width:25%;
+    border: grey;
+    border-radius: 5px;
+    border-top-left-radius: 0;
+    font-family: 'Kaushan Script', cursive;
+    border-bottom-left-radius: 0;
 }
