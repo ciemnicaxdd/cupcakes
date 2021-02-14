@@ -1,4 +1,5 @@
 html {
+    height: 232.5vh;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -18,7 +19,7 @@ ul{
     
     margin-left: 500px;
     font-size: 20px;
-    color:pink;
+    color:#ff5b79d8;
     
 }
 #phone{
@@ -27,7 +28,7 @@ ul{
     height: 25px;
     width: 25px;
     margin-top: 21px;
-    margin-left: 250px;
+    margin-left: 400px;
    
 }
 #number{
@@ -43,7 +44,7 @@ ul{
     height: 25px;
     width: 25px;
     margin-top: 21px;
-    margin-left: 250px;
+    margin-left: 50px;
     border: 0.5px;
 }
 #checkout2{
@@ -59,6 +60,7 @@ ul{
     left: 41%;
     transform: translate(-50%, -50%);
     font-size: 45px;
+    color: white;
 }
 #grammy{
     position: absolute;
@@ -66,9 +68,65 @@ ul{
     left: 55%;
     transform: translate(-50%, -50%);
     font-size: 60px;
-    color: pink;
+    color: #ff3d61d8;
 }
 #header img{
     width: 100%;
     
+}
+#explore{
+   
+    position: absolute;
+    top: 58%;
+    left: 48.5%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    color: black;
+    border: solid 2px black ;
+}
+
+
+.layer {
+    background-color: rgba(248, 247, 216, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#dwa{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#pierwsze{
+    margin-left: 350px;
+    margin-top: 150px;
+    font-size: 40px;
+
+}
+
+#drugie{
+
+    font-size: 60px;
+    color:#ff5b79d8 ;
+    margin-top: 128px;
+}
+#trzecie{
+    margin-top: 210px;
+    margin-left: -165px;
+}
+
+#dwa img{
+    margin-left: 300px;
+    margin-top: 150px;
+    
+    outline: 6px solid yellow;
+    outline-offset: 15px;
+    background-color: white;
+    color:white;
+    top: -10px;
+    left: -10px;
+    z-index: 10;
 }
